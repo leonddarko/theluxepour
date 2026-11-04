@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import CurrentYear from "./CurrentYear";
 
 const footerLinks = [
   { name: "Home", href: "/" },
@@ -55,7 +56,7 @@ export default function Footer() {
 
         <div className="flex flex-col justify-between gap-4 pt-8 text-[10px] uppercase tracking-[0.16em] text-white/35 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} The Luxe Pour Accra. All rights
+            © <CurrentYear /> The Luxe Pour Accra. All rights
             reserved.
           </p>
           <p>Crafted for extraordinary occasions.</p>
