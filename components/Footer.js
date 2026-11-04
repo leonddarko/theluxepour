@@ -5,6 +5,7 @@ import CurrentYear from "./CurrentYear";
 const footerLinks = [
   { name: "Home", href: "/" },
   { name: "Our Story", href: "/about" },
+  { name: "Menu", href: "/menu" },
   { name: "Book Our Bar", href: "/contact" },
 ];
 

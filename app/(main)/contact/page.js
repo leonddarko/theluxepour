@@ -14,9 +14,9 @@ export const metadata = {
 };
 
 // Replace these with the business's actual contact details.
-const WHATSAPP_NUMBER = "233XXXXXXXXX";
-const BUSINESS_EMAIL = "YOUR_EMAIL_ADDRESS";
-const INSTAGRAM_URL = "https://instagram.com/YOUR_INSTAGRAM_HANDLE";
+const WHATSAPP_NUMBER = "0244868779";
+const BUSINESS_EMAIL = "";
+const INSTAGRAM_URL = "https://www.instagram.com/theluxepour.accra?rpxt=MTcweGczY3IxZjZuaQ==";
 
 const eventTypes = [
   "Weddings",
@@ -131,7 +131,7 @@ export default function ContactPage() {
           </a>
 
           {/* EMAIL */}
-          <a
+          {/* <a
             href={`mailto:${BUSINESS_EMAIL}`}
             className="group flex flex-col items-start border border-[#ded4c6] bg-white p-8 transition duration-300 hover:border-[#c6a46b] hover:shadow-xl"
           >
@@ -153,7 +153,7 @@ export default function ContactPage() {
               Send an Enquiry
               <FiArrowUpRight className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </span>
-          </a>
+          </a> */}
 
           {/* INSTAGRAM */}
           <a

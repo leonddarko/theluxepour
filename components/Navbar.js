@@ -7,6 +7,7 @@ import { useState } from "react";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Our Story", href: "/about" },
+  { name: "Menu", href: "/menu" },
 ];
 
 export default function Navbar() {
